@@ -1,0 +1,14 @@
+    1  apt-get update
+    2  sudo apt-get update
+    3  sudo apt-get install apache2
+    4  sudo systemctl stauts apache
+    5  sudo systemctl stauts apache2
+    6  service apache2 status
+    7  hostname
+    8  hostnamectl set-hostname node1
+    9  sudo hostnamectl set-hostname node1
+   10  hostname
+   11  sudo apt-get install nagios-nrpe-server nagios-plugins
+   12  sudo vi /etc/nagios/nrpe.cfg 
+   13  sudo systemctl restart nagios-nrpe-server
+   14  sudo systemctl status nagios-nrpe-server
